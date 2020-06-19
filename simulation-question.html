@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        background-color: #fafaff!important;
+    }
+</style>
+</head>
+<body>
+
+
+    <section class="simulation-question">
+        <!-- <div id="layer"></div> -->
+            <div class="header bg-primary mb-2">
+                <img src="images/chevron.svg" class="m-4" alt="">
+                <a id="endExam" class="float-right text-white m-4"><b>End Exam</b></a>
+            </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <ul class="nav nav-pills m-3 " id="pills-tab" role="tablist">
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">1</a>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">2</a>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">3</a>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">4</a>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">5</a>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">6</a>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">7</a>
+                    </li>
+                </ul>
+                <div class="tab-content text-center" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h6 class="mb-4 text-danger">1 of 40</h6>
+                                    <img src="images/traffic_lights_1.png" alt="">
+                                    <h5 class="my-4">Each type of layer lives on a different imagined plane of the UI giving each its own distinct elevation. Elevation is the implied measured distance above the base layer. The affect of the elevation on a layer is defined by the intensity and depth of the shadow it casts.</h5>
+                                    <button type="button" class="btn btn-timer">20:40</button>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                </div>
+            </div>
+            <div class="py-3 text-center">
+                <button class="btn text-danger btn-buy all m-1 btn-lg" type="button">False</button>
+                <button class="btn btn-primary m-1 btn-lg" type="button">True</button>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="end bg-primary text-center py-4">
+        <div class="container">
+            <h6 class="my-4 text-white">Are you Sure that you want to end exam?</h6>
+            <ul class="p-3 my-5 scoretime-color list-unstyled d-flex justify-content-between">
+                <li><h4>5 of 40</h4></li>
+                <li><h4>12:29</h4></li>
+            </ul>
+            <a href="exam-mistakes.html" type="button" class="my-4 btn btn-light btn-block">Show Your Mistakes</a>
+            <a href="" type="button" class="my-4 btn black btn-block">Reset Your Exam</a>
+            <a href="simulation-results.html" type="button" class="my-4 btn btn-danger btn-block">End Exam Now</a>
+        </div>
+    </div>
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
